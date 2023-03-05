@@ -50,7 +50,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <?php } ?>
         <form>
             <div class="field">
-                <label for="email">Adresse eMail :</label>
+                <label for="email">Adresse email :</label>
                 <input type="email" id="email" name="email">
             </div>
             <div class="field">
