@@ -14,7 +14,7 @@ if(isset($_GET['action'])) {
                 $errors[] = 'L\'étiquette est obligatoire';
             }
             if (empty($description)) {
-                $errors[] = 'La description est obligatoire';
+                $errors[] = 'La description est Obligatoire';
             }
             if ($due_at !== null && strtotime($due_at) === false) {
                 $errors[] = 'La date d\'échéance est invalide';
